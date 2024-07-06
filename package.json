@@ -1,0 +1,28 @@
+{
+  "name": "2650-express-starter",
+  "version": "1.0.0",
+  "description": "This repo contains some boilerplate to get you started in Node with Express",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-redis": "^7.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "ioredis": "^5.4.1",
+    "mongoose": "^8.4.5",
+    "morgan": "^1.10.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "path": "^0.12.7",
+    "pug": "^3.0.2",
+    "uuid": "^10.0.0"
+  }
+}

@@ -1,0 +1,9 @@
+doctype html
+html
+  head
+    title= title
+  body
+    h1 Yay node!
+    p Hello #{user.displayName}
+    p Your logged in with  #{user.email}
+    a(href="/auth/logout") Logout
